@@ -20,5 +20,6 @@ main {
 }
 footer {
   text-align: center;
+  clear: both;
   min-width: 125px;
 }
