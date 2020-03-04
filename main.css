@@ -16,6 +16,7 @@ body {
 main {
   text-align: center;
   min-height: 500px;
+  background-color: red;
   width: 60%;
 }
 .right-div {
@@ -26,6 +27,7 @@ main {
 }
 footer {
   text-align: center;
+  background-color: green;
   clear: both;
   min-height: 125px;
 }
