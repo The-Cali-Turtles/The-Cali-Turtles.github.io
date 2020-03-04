@@ -20,6 +20,9 @@ main {
   text-align: center;
   width: 60%;
 }
+.main-container {
+ margin: auto; 
+}
 .right-div {
   background-color: yellow;
   width: 20%;
