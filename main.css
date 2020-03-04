@@ -7,27 +7,25 @@ body {
   background-color: #0059b3;
   color: white;
 }
+top-container {
+  display: flex;
+  justify-content: left;
+}
 .left-div {
-  float: left;
-  width: 20%;
   background-color: yellow;
-  height: 500px;
+  width: 20%;
 }
 main {
-  text-align: center;
-  height: 500px;
   background-color: red;
+  text-align: center;
   width: 60%;
 }
 .right-div {
-  float: right;
-  height: 500px;
   background-color: yellow;
   width: 20%;
 }
 footer {
-  text-align: center;
   background-color: green;
-  clear: both;
+  text-align: center;
   height: 125px;
 }
