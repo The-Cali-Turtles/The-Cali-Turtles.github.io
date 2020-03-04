@@ -11,17 +11,17 @@ body {
   float: left;
   width: 20%;
   background-color: yellow;
-  max-height: 500px;
+  height: 500px;
 }
 main {
   text-align: center;
-  max-height: 500px;
+  height: 500px;
   background-color: red;
   width: 60%;
 }
 .right-div {
   float: right;
-  max-height: 500px;
+  height: 500px;
   background-color: yellow;
   width: 20%;
 }
@@ -29,5 +29,5 @@ footer {
   text-align: center;
   background-color: green;
   clear: both;
-  max-height: 125px;
+  height: 125px;
 }
