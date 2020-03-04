@@ -4,5 +4,11 @@
   padding: 0px;
 }
 body {
- background-color: #000080;
+ background-color: #0059b3;
+}
+main {
+ text-align: center;
+}
+footer {
+  text-align: center;
 }
