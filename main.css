@@ -17,7 +17,7 @@ body {
   height: 100%;
 }
 .left-div {
-  padding: 5px;
+  padding: 8px;
   width: 20%;
 }
 .left-container {
@@ -39,7 +39,6 @@ main {
   justify-content: space-around;
 }
 .title {
-  background-color: blueviolet;
   padding: 15px;
   text-align: center;
 }
@@ -47,7 +46,6 @@ main {
   text-decoration: underline;
 }
 .schedule {
-  background-color: burlywood;
   padding: 15px;
   text-align: center;
 }
@@ -57,32 +55,51 @@ main {
 table {
   width: 100%;
 }
-table, th {
+th, tr, td {
   border: 1px solid black;
 }
 .right-div {
   width: 20%;
-  padding: 5px;
+  padding: 8px;
 }
 .right-container {
   background-color: whitesmoke;
   border-radius: 5px;
   padding: 2px;
   color: black;
-  box-shadow: 1px 2px 2px lightpink;
   height: 100%;
 }
 footer {
   display: flex;
   justify-content: center;
   flex-flow: column wrap;
-  height: 100px;
+  border-top: 1px solid lightgrey;
 }
 .center {
   display: flex;
-  align-items: center;
-  text-align: center;
+  justify-content: center;
+  margin: 4px 0px;
 }
 nav {
+  background-color: white;
   display: flex;
+  justify-content: center;
+  padding: 15px;
+}
+ul {
+  padding: 10px;
+  list-style-type: none;
+}
+li {
+  display: inline-block;
+}
+li:nth-child(2) {
+  margin: 0px 25px;
+}
+a {
+  color: white;
+}
+img {
+  border-radius: 5px;
+  height: 50px;
 }
