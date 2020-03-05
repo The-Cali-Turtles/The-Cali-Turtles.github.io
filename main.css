@@ -6,29 +6,79 @@
 body {
   background-color: #0059b3;
   color: white;
+  font-size: 18px;
+  width: 100%;
+  height: 100%;
 }
 .top-container {
   display: flex;
   justify-content: left;
+  margin-bottom: 5px;
+  height: 100%;
 }
 .left-div {
-  background-color: yellow;
+  padding: 5px;
   width: 20%;
 }
+.left-container {
+  background-color: whitesmoke;
+  border-radius: 5px;
+  padding: 2px;
+  color: black;
+  height: 100%;
+}
 main {
-  background-color: red;
-  text-align: center;
+  border-radius: 0px 0px 5px 5px;
+  display: flex;
+  justify-content: center;
   width: 60%;
 }
 .main-container {
- margin: auto; 
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: space-around;
+}
+.title {
+  background-color: blueviolet;
+  padding: 15px;
+  text-align: center;
+}
+.title h2 {
+  text-decoration: underline;
+}
+.schedule {
+  background-color: burlywood;
+  padding: 15px;
+  text-align: center;
+}
+.schedule h2 {
+   text-decoration: underline; 
+}
+table {
+  width: 100%;
+}
+table, th {
+  border: 1px solid black;
 }
 .right-div {
-  background-color: yellow;
   width: 20%;
+  padding: 5px;
+}
+.right-container {
+  background-color: whitesmoke;
+  border-radius: 5px;
+  padding: 2px;
+  color: black;
+  box-shadow: 1px 2px 2px lightpink;
+  height: 100%;
 }
 footer {
-  background-color: green;
+  display: flex;
+  justify-content: center;
+  height: 100px;
+}
+.center {
+  display: flex;
+  align-items: center;
   text-align: center;
-  height: 125px;
 }
