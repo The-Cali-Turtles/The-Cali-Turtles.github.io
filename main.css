@@ -75,12 +75,14 @@ table, th {
 footer {
   display: flex;
   justify-content: center;
+  flex-flow: column wrap;
   height: 100px;
 }
 .center {
-  
-  
   display: flex;
   align-items: center;
   text-align: center;
+}
+nav {
+  display: flex;
 }
