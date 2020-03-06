@@ -1,0 +1,25 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+.top-container {
+    background-color: lightpink;
+    position: relative;
+}
+.left-button {
+    background-color: lightgray;
+    opacity: 0.5;
+    position: absolute;
+    left: 0;
+    top: 50%;
+}
+.image-row-container {
+    background-color: lightskyblue;
+}
+img {
+    width: 100px;
+}
+footer {
+    background-color: lightseagreen;
+}
