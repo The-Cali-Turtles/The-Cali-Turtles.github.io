@@ -3,15 +3,41 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="ticketsCSS/tickets.css">
+    <link href="https://fonts.googleapis.com/css?family=Sen&display=swap" rel="stylesheet">
+    <script src="js/schedule.js"></script>
     <title>tickets</title>
 </head>
 <body>
-    Tickets are $9.99 for adult 
-    <form method="POST" action="">
-        <input type="">
-        <button type="submit">Submit</button>
-    </form>
-    <a href="merchandise.html">Merchandise</a>
-    <a href="../index.html">Back</a>
+    <div class="container">
+        <header>
+            <form>
+                <h2>Schedule to see a game in action!!!</h2>
+                Adults are 16+ and cost $35.00
+                <br>
+                Children are 15 and under and cost $20.99
+                <br>
+                <label>How many people?</label>
+                <input type="number" id="people" value="1" min="1" max="10" required>
+                <br>
+                <label for="">How many adults?</label>
+                <input type="number" id="adults" value="1" min="1" max="10" required>
+                <br>
+                <label for="">How many children?</label>
+                <input type="number" id="children" value="0" min="1" max="10" required>
+                <br>
+                <label for="">Schedule for game</label>
+                <input type="date" onload="time()" value="2020-03-03" id="schedule" required>
+                <br>
+                TOTAL COST: <span id="cost" o></span>
+                <br>
+                <button type="submit">Submit</button>
+            </form>
+        </header>
+        <footer>
+            <a href="merchandise.html">Merchandise</a>
+            <a href="../index.html">Back</a>
+        </footer>
+    </div>
 </body>
 </html>
