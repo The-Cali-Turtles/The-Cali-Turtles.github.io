@@ -8,28 +8,27 @@
     <script src="js/schedule.js"></script>
     <title>tickets</title>
 </head>
-<body>
+<body onload="time()">
     <div class="container">
         <header>
             <form>
                 <h2>Schedule to see a game in action!!!</h2>
-                Adults are 16+ and cost $35.00
-                <br>
-                Children are 15 and under and cost $20.99
+                <p>Adults are 16+ and cost $35.00</p>
+                <p>Children are 15 and under and cost $20.99</p>
                 <br>
                 <label>How many people?</label>
-                <input type="number" id="people" value="1" min="1" max="10" required>
+                <input type="number" id="people" value="2" min="1" max="10" required>
                 <br>
                 <label for="">How many adults?</label>
                 <input type="number" id="adults" value="1" min="1" max="10" required>
                 <br>
                 <label for="">How many children?</label>
-                <input type="number" id="children" value="0" min="1" max="10" required>
+                <input type="number" id="children" value="1" min="1" max="10" required>
                 <br>
                 <label for="">Schedule for game</label>
-                <input type="date" onload="time()" value="2020-03-03" id="schedule" required>
+                <input type="date" name="schedule" id="schedule">
                 <br>
-                TOTAL COST: <span id="cost" o></span>
+                TOTAL COST: <span id="cost"></span>
                 <br>
                 <button type="submit">Submit</button>
             </form>

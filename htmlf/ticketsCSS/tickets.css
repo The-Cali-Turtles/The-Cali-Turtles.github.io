@@ -4,8 +4,9 @@
     padding: 0px;
 }
 body {
-    background-color: lightgray;
+    background-color: white;
     font-family: 'Sen', sans-serif;
+    color:#0059b3;
 }
 .container {
     position: absolute;
@@ -23,6 +24,12 @@ form {
 }
 form h2 {
     text-decoration: underline;
+    margin-bottom: 10px;
+}
+form p {
+    padding: 0px;
+    margin: 0px;
+    font-style: italic;
 }
 footer {
     display: flex;
