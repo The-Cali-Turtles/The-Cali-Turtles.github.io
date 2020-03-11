@@ -5,14 +5,39 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="merCSS/merch.css">
     <script src="js/left.js"></script>
+    <script src="js/right.js"></script>
     <!--<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">-->
     <title>Merch</title>
 </head>
 <body>
+    <header>
+        <div class="dropdown">
+            <button class="dropbtn">wearable</button>
+            <div class="dropdown-content">
+                <a href="#">Hats</a>
+                <a href="#">Scarfs</a>
+                <a href="#">Coats</a>
+                <a href="#">Shirts</a>
+                <a href="#">Underwear</a>
+                <a href="#">Pants</a>
+                <a href="#">Socks</a>
+                <a href="#">Shoes</a>
+            </div>
+        </div>
+        <div class="dropdown">
+            <button class="dropbtn">Accessories</button>
+            <div class="dropdown-content">
+                <a href="#">Cups</a>
+                <a href="#">Watches</a>
+                <a href="#">Posters</a>
+                <a href="#">Computers</a>
+            </div>
+        </div>
+    </header>
     <div class="top-container">
         <h2>SHOP NOW!</h2>
         <div class="image-row-container">
-            <button class="left-button" onclick=moveImgLeft()> < </button>
+            <button class="left-button" onclick="moveImgLeft()"> < </button>
             <div class="gallery">
                 <img src="img/merchclothes.jpg" alt="clothes">
                 <div class="desc">
@@ -48,7 +73,7 @@
                     Free Shipping!
                 </div>
             </div>
-            <button class="right-button" onclick=moveImgRight()> > </button>
+            <button class="right-button" onclick="moveImgRight()"> > </button>
         </div>
     </div>
     <footer>

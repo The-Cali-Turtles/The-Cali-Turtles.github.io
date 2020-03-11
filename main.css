@@ -34,7 +34,7 @@ main {
   border-radius: 0px 0px 5px 5px;
   display: flex;
   justify-content: center;
-  width: 60%;
+  width: 50%;
 }
 .main-container {
   display: flex;
@@ -64,13 +64,14 @@ main {
 }
 table {
   width: 100%;
+  background-color: gray;
 }
-th, tr, td {
+table, td {
   border: 1px solid black;
   border-collapse: collapse;
 }
 .right-div {
-  width: 20%;
+  width: 30%;
   padding: 8px;
 }
 .right-container {
@@ -91,8 +92,11 @@ table#players {
 table#players tr {
   border: none;
 }
-table#players td{
+table#players td {
   border: 1px solid black;
+}
+#first-thead {
+  border-bottom: 1px solid black;
 }
 footer {
   display: flex;

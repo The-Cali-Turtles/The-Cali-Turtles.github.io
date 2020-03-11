@@ -1,6 +1,6 @@
 function moveImgLeft() {
 
-    var current = document.getElementById("select");
-    
+    var currentImg = document.getElementById("select");
+    currentImg.style.background = "green";
 
 }
