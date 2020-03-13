@@ -11,26 +11,33 @@
 </head>
 <body>
     <header>
-        <div class="dropdown">
-            <button class="dropbtn">wearable</button>
-            <div class="dropdown-content">
-                <a href="#">Hats</a>
-                <a href="#">Scarfs</a>
-                <a href="#">Coats</a>
-                <a href="#">Shirts</a>
-                <a href="#">Underwear</a>
-                <a href="#">Pants</a>
-                <a href="#">Socks</a>
-                <a href="#">Shoes</a>
+        <div class="container">
+            <div class="logo">
+                <img src="../img/fb.png" alt="logo">
             </div>
-        </div>
-        <div class="dropdown">
-            <button class="dropbtn">Accessories</button>
-            <div class="dropdown-content">
-                <a href="#">Cups</a>
-                <a href="#">Watches</a>
-                <a href="#">Posters</a>
-                <a href="#">Computers</a>
+            <div class="right">
+                <div id="first-dropdown" class="dropdown">
+                    <button class="dropbtn">wearable</button>
+                    <div class="dropdown-content">
+                        <a href="#">Hats</a>
+                        <a href="#">Scarfs</a>
+                        <a href="#">Coats</a>
+                        <a href="#">Shirts</a>
+                        <a href="#">Underwear</a>
+                        <a href="#">Pants</a>
+                        <a href="#">Socks</a>
+                        <a href="#">Shoes</a>
+                    </div>
+                </div>
+                <div class="dropdown">
+                    <button class="dropbtn">Accessories</button>
+                    <div class="dropdown-content">
+                        <a href="#">Cups</a>
+                        <a href="#">Watches</a>
+                        <a href="#">Posters</a>
+                        <a href="#">Computers</a>
+                    </div>
+                </div>
             </div>
         </div>
     </header>
@@ -38,7 +45,7 @@
         <h2>SHOP NOW!</h2>
         <div class="image-row-container">
             <button class="left-button" onclick="moveImgLeft()"> < </button>
-            <div class="gallery">
+            <div class="gallery" id="first">
                 <img src="img/merchclothes.jpg" alt="clothes">
                 <div class="desc">
                     9.99

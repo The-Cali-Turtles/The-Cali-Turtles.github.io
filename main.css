@@ -62,9 +62,10 @@ main {
 .schedule-table {
   margin-top: 10px;
 }
-table {
+table#schedule-table-table {
   width: 100%;
-  background-color: gray;
+  color: black;
+  background-color: whitesmoke;
 }
 table, td {
   border: 1px solid black;
@@ -92,8 +93,14 @@ table#players {
 table#players tr {
   border: none;
 }
+table#players thead th {
+  border: 1px solid black;
+  padding: 6px;
+}
 table#players td {
   border: 1px solid black;
+  padding: 6px;
+  text-align: center;
 }
 #first-thead {
   border-bottom: 1px solid black;
