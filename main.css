@@ -78,6 +78,7 @@ table, td {
 .right-container {
   background-color: whitesmoke;
   border-radius: 5px;
+  text-align: center;
   padding: 2px;
   color: black;
   height: 100%;
